@@ -1,5 +1,5 @@
-# Project_1
-YouTube Data Harvesting and Warehousing using SQL and Streamlit
+# Project_1 - YouTube Data Harvesting and Warehousing using SQL and Streamlit
+
 This project gathers data from YouTube channels using the YouTube Data API, followed by meticulous processing and subsequent warehousing.
 
 Problem Statement
