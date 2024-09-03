@@ -341,7 +341,7 @@ if opt == ("Q/A"):
 
 
     elif questions == '8. What are the names of all the channels that have published videos in the year 2022?':
-            mycursor.execute("""SELECT Channel_Name AS Channel_Name FROM youtube_dat.videoz_table WHERE published_at LIKE '2022%' GROUP BY Channel_Name ORDER BY Channel_Name""")
+            mycursor.execute("""SELECT Channel_Name AS Channel_Name FROM youtube_data.videoz_table WHERE published_at LIKE '2022%' GROUP BY Channel_Name ORDER BY Channel_Name""")
             df = pd.DataFrame(mycursor.fetchall(), columns=mycursor.column_names)
             st.write(df)
                         
