@@ -1,20 +1,22 @@
-Project_1 - YouTube Data Harvesting and Warehousing using SQL and Streamlit
+Project_1 -
+
+#**YouTube Data Harvesting and Warehousing using SQL and Streamlit**
 
 This project gathers data from YouTube channels using the YouTube Data API, followed by meticulous processing and subsequent warehousing.
 
-PROBLEM STATEMENT
+>**PROBLEM STATEMENT**
 
 To create a Streamlit application that allows users to input a YouTube channel ID and retrieve channel details using the YouTube Data API. The gathered information will be stored in a SQL data warehouse. The application should offer various search options for accessing and querying the data from the SQL database.
 
-OVERVIEW
+>**OVERVIEW**
 
 By leveraging the Google YouTube API, the application can retrieve detailed information about YouTube channels and videos, store it in a SQL database, and enable users to perform complex searches and analyses on the data. The application is user-friendly and provides a seamless way to interact with and visualize YouTube channel data.
 
-TAKE AWAY SKILLS
+>**TAKE AWAY SKILLS**
 
 The following skills were acquired from the project: Youtube API integration, Python scripting, Data Management using MySQL, Streamlit app development, Pandas, Plotly data visualization.
 
-WORKFLOW
+>**WORKFLOW**
 
 1.API Integration:
 
@@ -37,25 +39,25 @@ Using SQL join operations, the application processes user queries to extract mea
 
 The app leverages Streamlit's capabilities to present the analyzed data through interactive tables and charts, enabling users to easily interpret and explore the insights derived from the YouTube channels.
 
-USAGE OF APP
+>**USAGE OF APP**
 
 After the project has been successfully set up and activated, users can interact with the Streamlit application through a web browser. Through the application's user-friendly interface, users can carry out the following tasks:
 
-Input a YouTube channel ID to fetch data for the specified channel.
+-Input a YouTube channel ID to fetch data for the specified channel.
 
-Gather information and keep it in a SQL data warehouse for numerous YouTube channels.
+-Gather information and keep it in a SQL data warehouse for numerous YouTube channels.
 
-Check out the uploaded channels' details.
+-Check out the uploaded channels' details.
 
-Utilise a variety of search tools to locate and retrieve data from a SQL database.
+-Utilise a variety of search tools to locate and retrieve data from a SQL database.
 
-Use these integrated features to perform analysis and visualisation of channel data.
+-Use these integrated features to perform analysis and visualisation of channel data.
 
-METHOD OF USE
+>**METHOD OF USE**
 
 Follow these steps,to use this project :
 
-1 Set up the streamlit package : pip install streamlit
+1. Set up the streamlit package : pip install streamlit
 
 2.Run the Streamlit app: streamlit run app.py
 
@@ -69,19 +71,19 @@ Follow these steps,to use this project :
 
 7.In the views tab,Select the questions that best fit your needs.
 
-CONCLUSION
+>**CONCLUSION**
 
 This project aims to develop a user-friendly Streamlit application that leverages the Google API to extract detailed data from YouTube channels. Once collected, the data is stored in a SQL data warehouse. The Streamlit app enhances the data exploration process by enabling users to efficiently search for channel information and perform table joins.
 
-REFERENCES
+>**REFERENCES**
 
-YouTube Data API [https://developers.google.com/youtube/v3/getting-started]
+-YouTube Data API [https://developers.google.com/youtube/v3/getting-started]
 
-Streamlit App [https://docs.streamlit.io/library/api-reference]
+-Streamlit App [https://docs.streamlit.io/library/api-reference]
 
-MySQL [https://pypi.org/project/pymysql/]
+-MySQL [https://pypi.org/project/pymysql/]
 
-Pandas [https://pandas.pydata.org/docs/]
+-Pandas [https://pandas.pydata.org/docs/]
 
-Plotly [https://plotly.com/python-api-reference/]
+-Plotly [https://plotly.com/python-api-reference/]
 
